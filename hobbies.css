@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+    a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+    header {
+        background: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        padding-left: 50px;
+        padding-right: 60px;
+        position: fixed;
+        width: 100%;
+    }
+    .home {
+        padding-right: 600px;
+    }
+    .fa-house {
+        font-size: 20px;
+    
+    }
+    header h3 a {
+        transition: all 0.3s ease 0.1s;
+    }
+    header h3 a {
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    header h3 a:hover {
+        /* color: rgb(239, 61, 61); */
+        background-color: red;
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+.home a {
+    color: red;
+}
+.home a:hover {
+    color: white;
+}
+.S1 {
+    width: 25%;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 63px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+    box-shadow: 2px 2px 10px black;
+    float: left;
+}
+.Workout {
+    background: Grey;
+    height: 40px;
+    /* text-align: center; */
+    font-family: fantasy;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.workout-box{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('./Go\ run!.jpg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    
+}
+img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.S1:hover {
+    box-shadow:  4px 4px 20px black;
+    cursor: pointer;
+}
+.Design {
+    background: Grey;
+    height: 40px;
+    /* text-align: center; */
+    font-family: fantasy;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.design-box{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url('./Illustration\ Teardowns_\ Figures\ Included.png');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+.S2 {
+    width: 25%;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 63px;
+    margin-top: 130px;
+    margin-bottom: 170px;
+    box-shadow: 2px 2px 10px black;
+    float: left;
+}
+.Design {
+    background: Grey;
+    height: 40px;
+    /* text-align: center; */
+    font-family: fantasy;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.S2:hover {
+    box-shadow:  4px 4px 20px black;
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background: #34495e;
+    color: white;
+    padding: 100px 30px;
+    padding-top: 8px;
+    padding-bottom: 8;
+    font-size: 13px;
+    line-height: 20px;
+    height: 100px;
+    margin-top: 450px;
+    
+}
